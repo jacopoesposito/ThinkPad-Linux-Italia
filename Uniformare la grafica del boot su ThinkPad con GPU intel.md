@@ -2,7 +2,7 @@
 
 Per uniformare il boot in modo da non vedere sfarfallamenti e altri glitch con **gpu intel**
 
-* editare il file di configurazione di grub aggiungendo alla fine della stringa [ GRUB_CMDLINE_LINUX= ] il parametro fastboot=1 assicurandoti di inserirlo proma della " di chiusura.
+* editare il file di configurazione di grub aggiungendo alla fine della stringa [ GRUB_CMDLINE_LINUX= ] il parametro fastboot=1 assicurandoti di inserirlo prima della " di chiusura.
 
 # sudo gedit /etc/default/grub
 
